@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* Noto Sans KR Variable Font */
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../font/NotoSansKR-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Montserrat Variable Font */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}

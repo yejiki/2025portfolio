@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+:root{
+  --main-font: 'Noto Sans KR', sans-serif;
+  --sub-font: "Montserrat", sans-serif;
+  --main-color: #fff;
+  --sub-color: #000;
+}
+::selection {
+  color: var(--sub-color);  
+  background-color: var(--main-color);
+}
+
+html{
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+table{
+  border-collapse: collapse; 
+  width: 100%;}
+ol, ul{
+  list-style: none;
+}
+a{
+  text-decoration: none; 
+  color: #000;
+}
+address, em{
+  font-style: normal;
+}
+caption , legend{
+  display: none;
+}
+select, input, fieldset, button{
+  border: 0; 
+  outline: none; 
+  vertical-align: top;
+}
+img{
+  vertical-align: top; 
+  border: 0;
+}
+
+/* 공통 */
+body{
+  font-family: var(--main-font);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: var(--sub-color);
+}
+#wrap{
+  min-width: 320px;
+  overflow: hidden;
+}
+.inner{
+  max-width: 1700px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+
+
+.project-top{
+  color: #fff;
+
+}
