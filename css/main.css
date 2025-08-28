@@ -1134,7 +1134,6 @@ footer .f-tit .sub-txt{
 
 
 
-/* Main image */
 .gotp-hv .main {
   position: absolute;
   top: 0;
@@ -1143,7 +1142,6 @@ footer .f-tit .sub-txt{
   z-index: 5;
 }
 
-/* Decorative heartbeat image 1 */
 .gotp-hv .deco1 {
   position: absolute;
   top: 20%;
@@ -1152,7 +1150,6 @@ footer .f-tit .sub-txt{
   z-index: 6;
 }
 
-/* Decorative heartbeat image 2 */
 .gotp-hv .deco2 {
   position: absolute;
   top: -5%;
