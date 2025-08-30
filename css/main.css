@@ -467,16 +467,24 @@ header .inner nav ul li:last-child{
 }
 
 /* 버튼 스타일 */
+.go-site{
+  display: flex;
+  gap: 20px;
+  bottom: 5%;
+  right: 5%;
+  position: absolute;
+}
+.go-site .project-btn {
+  position: static; /* 절대 위치 해제 */
+  text-align: center;
+}
 .project-btn {
   border: 2px solid #fff;
   border-radius: 50px;
   padding: 6px 20px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #fff;
   font-family: var(--sub-font);
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
   transition: all 0.3s;
   font-weight: 500;
 }
@@ -486,9 +494,15 @@ header .inner nav ul li:last-child{
   color: #000;
 }
 
-.fig-btn{
-  bottom: 80px;
-  padding: 6px 25px;
+@media (max-width: 390px){
+  .go-site{
+    gap: 16px;
+  }
+  .project-btn {
+    padding: 4px 16px;
+    font-size: 1.7rem;
+  }
+
 }
 
 /* 제목 설명 */
