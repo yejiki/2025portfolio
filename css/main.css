@@ -486,7 +486,10 @@ header .inner nav ul li:last-child{
   color: #000;
 }
 
-
+.fig-btn{
+  bottom: 80px;
+  padding: 6px 25px;
+}
 
 /* 제목 설명 */
 .project-title a{
@@ -600,6 +603,11 @@ header .inner nav ul li:last-child{
   border-radius: 15px;
   margin-bottom: 20px;
   margin-top: 20px;
+  overflow: hidden;
+}
+.pr .pr-img img{
+  width: 100%;
+  object-fit: cover;
 }
 .name, .birth{
   font-size: 2rem;
