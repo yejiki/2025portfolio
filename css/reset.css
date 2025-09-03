@@ -55,7 +55,6 @@ body{
 }
 #wrap{
   min-width: 320px;
-  overflow: hidden;
 }
 .inner{
   max-width: 1700px;

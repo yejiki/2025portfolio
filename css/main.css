@@ -2,7 +2,7 @@
 
 /* header */
 header{
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -73,95 +73,92 @@ header .inner nav ul li:last-child{
 
 
 /* .main-vs */
+.main-wrap{
+  height: calc(100vh - 150px);
+  padding-top: 2%;
+}
 .main-vs{
-  height: 100vh;
+  width: 100%;
+}
+.main-vs img{
   width: 100%;
 }
 .main-vs .inner{
   position: relative;
   height: 100%;
 }
-.main-vs .inner .main-txt{
-  align-items: center;
-  gap: 3%;
-  position: absolute;
-  margin-top: 200px;
-  width: 100%;
-}
-.main-vs h1{
-  width: 50%;
-}
-.main-vs h1 img{
-  width: 100%;
-}
-.main-vs .main-key{
-  width: 32%;
-  position: relative;
-}
-.main-vs .main-key img{
-  width: 100%;
-}
 
-.main-vs .main-swiper {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  width: 67%;
-  height: 100%;
-}
-
-.main-txt .line:nth-child(2) img{
-  width: 80%;
-}
-.main-txt .line {
-  width: 100%;
+.vs-sub{
+  font-family: var(--sub-font);
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--main-color);
+  margin-top: 70px;
+  line-height: 1.1;
+  opacity: 0.8;
   display: flex;
-  align-items: center;
-  gap: 40px;
-  margin-bottom: 20px;
-}
-.main-txt .line:first-child img{
-  width: 40%;
-}
-/* .third-line {
-  justify-content: flex-start;
-} */
-.for-img{
-  width: 25%;
-}
-.main-key {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* key 이미지와 swiper 간격 */
+  justify-content: space-between;
 }
 
-/* @media (max-width: 1024px){
+
+.normal-text {
+  font-size: 1.8rem;
+  color: var(--main-color);
+}
+
+
+@media (max-width: 960px){
+  .vs-sub{
+    margin-top: 60px;
+    font-size: 3.7rem;
+  }
+}
+@media (max-width: 760px){
+  .main-wrap{
+    height: calc(100vh - 70px);
+  }
+  .vs-sub{
+    margin-top: 55px;
+    font-size: 3.3rem;
+    justify-content: first baseline;
+  }
+ 
+}
+@media (max-width: 630px){
+  .vs-sub{
+    margin-top: 55px;
+    font-size: 2.7rem;
+  }
 
 }
-@media (max-width: 765px){
-  
+@media (max-width: 560px){
+  .vs-sub{
+    margin-top: 45px;
+    font-size: 2.2rem;
+  }
 }
-@media (max-width: 390px){
-  
-} */
+@media (max-width: 460px){
+  .vs-sub{
+    margin-top: 35px;
+    font-size: 2rem;
+  }
 
+}
 
 /* intro */
-.intro::before{
+/* .intro::before{
   content: "";
   display: block;
   width: 100%;
   height: 1px;
   background-color: var(--main-color);
   margin-bottom: 12px;
-}
+} */
 .intro{ 
   color: var(--main-color); 
-
 }
 .intro .sub-txt{
-  margin: 90px auto 50px;
+  margin: 130px auto 50px;
   text-align: center;
 }
 .intro-list img, .intro-list-se img{
